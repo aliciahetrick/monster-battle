@@ -12,9 +12,9 @@ class Move {
     return probability
   }
 }
-class Fireball extends Move {
+class Mushroomball extends Move {
   constructor() {
-    super('Fireball', 120, 0.76)
+    super('Mushroomball', 120, 0.76)
   }
 }
 class Confusion extends Move {

@@ -1,6 +1,6 @@
-const dragon = new Dragon()
+const toad = new Toad()
 const bowser = new Bowser()
-const battle1 = new Battle(dragon, bowser)
+const battle1 = new Battle(toad, bowser)
 battle1.render()
 
 let fightButton = document.querySelector('.fight')

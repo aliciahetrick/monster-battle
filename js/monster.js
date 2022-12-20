@@ -38,12 +38,12 @@ class Monster {
     return monsterSection
   }
 }
-class Dragon extends Monster {
+class Toad extends Monster {
   constructor() {
-    super('Dragon', 2000, 50, 20, new Fireball())
+    super('Toad', 2000, 50, 20, new Mushroomball())
   }
   render() {
-    return super.render('dragon.jpeg')
+    return super.render('toad.png')
   }
 }
 class Moth extends Monster {

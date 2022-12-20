@@ -7,6 +7,33 @@ body {
   height: 100%;
   width: 100%;
   margin: 0;
+  background-color: rgb(126, 208, 126);
+}
+
+main {
+  margin-top: 8em;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 7em;
+  gap: 1em;
+
+  color: #fbe1b7;
+  background-color: rgb(15, 108, 19);
+  /* background-color: rgb(252, 76, 140); */
+  /* border-bottom: 1px black solid; */
+  font-family: Raleway;
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: uppercase;
 }
 
 .monster-image {
