@@ -42,7 +42,8 @@ main {
 
 .battle {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 10em;
 }
 
 .monster-section {
@@ -50,10 +51,35 @@ main {
   flex-direction: column;
   border: 1px solid black;
   align-items: center;
+  color: rgb(15, 108, 19);
+  font-family: Raleway;
+  font-weight: 800;
+  font-size: 2em;
+  text-transform: uppercase;
 }
 
-.monster-name {
+.fight-message {
+  color: rgb(15, 108, 19);
+  font-family: Raleway;
+  font-weight: 600;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  color: rgb(15, 108, 19);
+  font-family: Raleway;
+  font-weight: 800;
+  font-size: 2em;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.ui {
   display: flex;
   flex-direction: column;
-  font-size: 10em;
 }

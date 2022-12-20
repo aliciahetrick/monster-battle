@@ -20,7 +20,7 @@ class Monster {
   render(imgSrc) {
     let monsterSection = document.createElement('section')
     let renderedMonsterImg = document.createElement('img')
-    let renderedMonsterName = document.createElement('h2')
+    let renderedMonsterName = document.createElement('p')
     let renderedMonsterHp = document.createElement('p')
     renderedMonsterImg.src = imgSrc
 

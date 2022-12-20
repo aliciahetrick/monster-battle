@@ -12,5 +12,6 @@ fightButton.addEventListener('click', function () {
   const log = document.querySelector('.log')
   const li = document.createElement('li')
   li.textContent = battle1.fight()
+  li.classList.add('fight-message')
   log.append(li)
 })
